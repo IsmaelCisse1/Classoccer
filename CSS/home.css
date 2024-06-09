@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5d3b3;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-btn {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.carousel img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tendances {
+    text-align: center;
+}
+
+.tendances-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tendances-items .item {
+    text-align: center;
+    margin: 10px;
+}
+
+.tendances-items .item img {
+    width: 150px;
+    height: auto;
+}
+
+.tendances-items .item p {
+    margin: 5px 0;
+}
+
+.top-players {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.top-players h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.top-players-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.player {
+    position: relative;
+    max-width: 300px;
+}
+
+.player img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.player p {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(245, 211, 179, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.player a {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgba(245, 211, 179, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.teams {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.team {
+    margin: 0 20px;
+}
+
+.team img {
+    height: 100px;
+    width: auto;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-column {
+    max-width: 200px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    line-height: 1.5;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+}
